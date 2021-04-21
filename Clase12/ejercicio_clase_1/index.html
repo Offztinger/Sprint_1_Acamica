@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+  </head>
+  <body>
+    <style>
+      html {
+        margin: 50px;
+      }
+      .cuadrado-container {
+        display: flex;
+        width: 600px;
+        justify-content: space-around;
+      }
+      .cuadrado {
+        height: 100px;
+        width: 100px;
+        background-color: blue;
+        transition: all 0.3s ease;
+        cursor: pointer;
+      }
+      .cuadrado:hover {
+        background-color: orangered;
+      }
+
+      .cuadrado2:hover {
+        transform: translateY(35px);
+      }
+      .cuadrado3:hover {
+        border-radius: 50%;
+        transition: 100ms ease-out;
+      }
+      .cuadrado4:hover {
+        transform: rotate(45deg);
+      }
+
+      /* 
+        Para rotar un elemento debes de usar
+        transform: rotate(45deg)
+
+        Para moverlo en horizontal:
+        transform: translateX(100px);
+
+        en vertical:
+        transform: translateY(100px);
+
+        en horizontal y vertical:
+        transform: translate(100px,200px);
+
+        en horizontal, vertical, y rotarlo:
+        transform: translate(100px,200px) rotate(45deg);
+       */
+    </style>
+    <div class="cuadrado-container">
+      <div class="cuadrado cuadrado1"></div>
+      <div class="cuadrado cuadrado2"></div>
+      <div class="cuadrado cuadrado3"></div>
+      <div class="cuadrado cuadrado4"></div>
+    </div>
+  </body>
+</html>

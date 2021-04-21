@@ -1,0 +1,33 @@
+.contenedor {
+  height: 100px;
+  width: 100px;
+  border: 1px solid tomato;
+  margin: 5px;
+  font-family: Arial;
+  font-size: 13px;
+}
+.texto {
+  color: blue;
+}
+
+div.contenedor.texto span {
+  display: block;
+  color: green;
+  background-color: black;
+}
+
+div.contenedor div.texto {
+  color: red;
+  font-weight: bold;
+}
+
+div.contenedor span div.texto {
+  background-color: black;
+  color: white;
+  font-weight: normal;
+}
+
+div.contenedor span div.texto div {
+  background-color: black;
+  color: yellow;
+}

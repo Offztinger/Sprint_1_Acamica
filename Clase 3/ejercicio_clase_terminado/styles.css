@@ -1,0 +1,54 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor {
+  width: 400px;
+  height: 500px;
+  border: 1px solid black;
+  padding: 40px;
+  background-color: white;
+  border-radius: 25px;
+  margin: 0 auto;
+}
+
+.clase-comun {
+  display: inline-block;
+  padding:15px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+body {
+  background-color: #38d8c6;
+}
+
+.cambio-boton {
+  border: none;
+  background-color: gray;
+  color: white;
+  margin-left: 3px;
+}
+
+.sombra {
+  -webkit-box-shadow: 7px 7px 16px 0px rgba(50, 50, 50, 0.62);
+  -moz-box-shadow: 7px 7px 16px 0px rgba(50, 50, 50, 0.62);
+  box-shadow: 7px 7px 16px 0px rgba(50, 50, 50, 0.62);
+}
+
+strong{
+  font-size: 20px;
+  display: inline;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+::placeholder{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+button{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}

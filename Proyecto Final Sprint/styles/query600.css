@@ -1,0 +1,73 @@
+@media screen and (max-width: 600px) {
+
+    /*Destinado al titulo de la sección episodios*/
+    div.tituloEpisodios h2 {
+        padding-top: 64px;
+        bottom: 50px;
+    }
+
+    /*Destinado al contenedor principal de la sección episodios*/
+
+
+    div.contenedorEpisodios {
+        height: 850px;
+    }
+
+    #episodios {
+        height: 1050px;
+    }
+
+    /*Destinado a poner en columna los podcast*/
+    div.embed-podcasts1,
+    div.embed-podcasts2 {
+        flex-direction: column;
+
+    }
+
+    /*Destinado a las margenes del contenedor de los podcast*/
+    div.podcasts {
+        margin: 21px 11px 0px 11px;
+    }
+
+    /*Destinado a las margenes de los items de los podcast*/
+    div.embed-podcasts1 iframe.item-podcast:nth-child(1) {
+        margin-bottom: 8px;
+        padding-right: 0px;
+    }
+
+
+    div.embed-podcasts1 iframe.item-podcast:nth-child(2) {
+        margin-bottom: 8px;
+        padding-left: 0px;
+    }
+
+    div.embed-podcasts2 iframe.item-podcast:nth-child(1) {
+        padding-right: 0px;
+        margin-bottom: 8px;
+    }
+
+
+    div.embed-podcasts2 iframe.item-podcast:nth-child(2) {
+        margin-bottom: 0px;
+        padding-left: 0px;
+    }
+
+    /*Destinado a nosotros*/
+
+    img.imgNosotros {
+        margin-top: -10px;
+        width: 360px;
+    }
+
+    /*Sección de Entrevistas*/
+
+    #entrevistas{
+        margin-top: 130px;;
+    }
+
+    div.imgEntrevistas {
+        flex-direction: column;
+    }
+
+    /*Destinado al footer*/
+}

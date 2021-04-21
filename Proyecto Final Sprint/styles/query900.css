@@ -1,0 +1,67 @@
+@media screen and (max-width: 900px) {
+
+    /*Destinado al Header*/
+    div.header {
+        margin-top: 80px;
+    }
+
+    /*Destinado al titulo del header*/
+    div.titulo h1 {
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 42px;
+        text-align: left;
+        line-height: 84px;
+    }
+
+    /*Destinado a la sección nosotros*/
+
+    div.textoNosotros h2 {
+        margin-bottom: 8px;
+        line-height: 84px;
+    }
+
+    div.textoNosotros p {
+        width: 95vw;
+    }
+
+    div.textoNosotros {
+        margin-bottom: 120px;
+    }
+
+    div.contenedorNosotros {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+    /*Sección de Entrevistas*/
+
+    div.imgEntrevistas{
+        flex-direction: row;
+    }
+
+    div.imgEntrevistas div.fila1,
+    div.imgEntrevistas div.fila2 {
+        flex-direction: column;
+    }
+
+    /*Destinado a topicos*/
+    div.itemTopicos {
+        flex-wrap: wrap;
+    }
+    
+    div.itemTopicos div.item {
+        width: 50%;
+    }
+
+    div.itemTopicos div.item:nth-child(3) {
+        margin-top: 30px;
+    }
+
+    div.itemTopicos div.item:last-child {
+        margin-top: 30px;
+    }
+}

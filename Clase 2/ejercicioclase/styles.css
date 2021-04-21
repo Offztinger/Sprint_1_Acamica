@@ -1,0 +1,37 @@
+/*Lo trabajamos entre todos: "Si vas solo, llegaras más rapido. Si vas acompañado, llegarás más lejos" Proverbio Chino*/
+
+* {
+  border: 1px solid black;
+}
+
+/*Las propiedades del div fueron colocadas por Mayra*/
+div {
+  /*display: inline-block;*/
+  height: 80px;
+  width: 80px;
+  font-size: 40px;
+  text-align: center;
+  font-family: Arial;
+}
+
+/*Esto lo trabajo Dani*/
+
+#color-uno {
+  background-color: #fc6856;
+}
+
+#color-dos {
+  background-color: #dafc62;
+}
+
+#color-tres {
+  background-color: #fc49b8;
+}
+
+#color-cuatro {
+  background-color: #30fc96;
+}
+
+#color-cinco {
+  background-color: #bc3dfc;
+}

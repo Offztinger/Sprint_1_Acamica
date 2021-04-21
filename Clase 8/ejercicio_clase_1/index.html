@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="texto" id="rojo">
+      Escribe una regla especifica para que este texto sea rojo
+    </div>
+
+    <div>
+      <span class="texto">
+        Escribe una regla especifica para que este texto sea azul
+      </span>
+    </div>
+
+    <div class="texto">
+      <span class="verde">
+        Escribe una regla especifica para que este texto sea verde
+      </span>
+    </div>
+
+    <div class="texto verde">
+      <span id="rojo" class="bold">
+        Escribe una regla especifica para que este texto sea amarillo, con fondo
+        negro y en negritas
+      </span>
+    </div>
+
+    <div class="texto bold">
+      <span class="verde">
+        <div>
+          Escribe una regla especifica para que este texto tenga fondo naranja y
+          texto blanco. El texto no debe estar en negritas.
+        </div>
+      </span>
+    </div>
+  </body>
+</html>

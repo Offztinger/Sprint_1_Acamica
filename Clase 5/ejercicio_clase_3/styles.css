@@ -1,0 +1,59 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* podemos aplicar un color de fondo por si el video no carga */
+  display: inline-block;
+}
+
+a {
+  color: white;
+}
+
+.cover {
+  display: flex;
+ 
+}
+
+.flex-form {
+  display: flex;
+  align-items: center ;
+  border-radius: 5px;
+  border: 15px solid rgba(0, 0, 0, 0.5);
+}
+
+.contenedorPrincipal{
+  display: flex;
+  width: 100vw;
+  height: 50vw; 
+  justify-content: center;
+  align-items: center;
+}
+
+.item{
+  height: 54px;
+  padding: 15px;
+  border: 1px solid black;
+  font-size: 15px;
+  background-color: white;
+}
+
+.itemBoton{
+  height: 54px;
+  padding: 15px;
+  border: 1px solid black;
+  font-size: 15px;
+  background-color: #fb5b63;
+  color: white;
+}
+
+.tamañoVideo{
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}

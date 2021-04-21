@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.lego {
+  /*
+    la propiedad background-image permite asingar
+    una imágen a un contenedor, com valor, se le especifica
+    la ruta (URL) de la imagen, que debe estar en nuestro proyecto,
+    o también, una ruta remota.
+  */
+  background-image: url(lego.png);
+  height: 80px;
+  width: 180px;
+}
+.lego-container {
+  display: flex;
+  /*Con estas lineas hacemos el diseño centrado en columna*/
+  width: 900px;
+  height: 600px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /*Con estas dos lineas hacemos un diseño responsivo*/
+  /*
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  */
+}
+
+body {
+  display: inline-block;
+}
+
+/* 
+  OPCIONAL 
+
+  ¿Quieres cambiar el color de tus legos?
+  La propiedad CSS filter te permite aplicar ciertos filtros
+  a tus elementos, y uno de ellos es el color. 
+
+  La propiedad se aplica de esta forma:
+
+  filter: hue-rotate(300deg);
+
+  Donde el valor de hue-rotate consiste en un angulo en grados
+  que aplicara ciertos colores a tu elemento: NaN;
+
+  Si quieres ver esto en accion, descomenta las siguientes
+  clases:
+*/
+
+/* 
+  .naranja {
+    filter: hue-rotate(300deg);
+  }
+  .azul {
+    filter: hue-rotate(100deg);
+  }
+  .morado {
+    filter: hue-rotate(200deg)
+  }
+*/
+
+/* 
+    Y aplicalas a algunos de tus legos
+   */

@@ -1,0 +1,27 @@
+.texto {
+  color: violet;
+}
+
+div.texto#rojo {
+  color: red;
+}
+
+div span.texto {
+  color: blue;
+}
+
+div.texto span.verde {
+  color: green;
+}
+
+div.texto.verde span#rojo.bold {
+  background-color: black;
+  color: yellow;
+  font-weight: bold;
+}
+
+div.texto.bold span.verde div {
+  background-color: orange;
+  color: white;
+  font-weight: normal;
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+  </head>
+  <body>
+    <style>
+      .cuadrado {
+        height: 53px;
+        width: 55px;
+        background-color: rgb(148, 148, 148);
+        border: 1px solid rgb(54, 54, 54);
+        font-size: 35px;
+        text-align: center;
+      }
+      .linea {
+        display: flex;
+      }
+
+      div.linea0 div.cuadrado:nth-child(1) span.emoji, div.linea0 div.cuadrado:nth-child(2) span.emoji, div.linea0 div.cuadrado:nth-child(5) span.emoji{
+        visibility: hidden;
+      }
+
+      div.linea1 div.cuadrado:nth-child(3) span.emoji, div.linea1 div.cuadrado:nth-child(6) span.emoji{
+        visibility: hidden;
+      }
+
+      div.linea2 div.cuadrado:nth-child(2) span.emoji, div.linea2 div.cuadrado:nth-child(6) span.emoji{
+        visibility: hidden;
+      }
+
+      div.linea3 div.cuadrado:nth-child(1) span.emoji, div.linea3 div.cuadrado:nth-child(3) span.emoji, div.linea3 div.cuadrado:nth-child(4) span.emoji, div.linea3 div.cuadrado:nth-child(6) span.emoji{
+        visibility: hidden;
+      }
+
+      div.linea4 div.cuadrado:nth-child(3) span.emoji, div.linea4 div.cuadrado:nth-child(5) span.emoji{
+        visibility: hidden;
+      }
+
+    </style>
+    <div class="linea linea0">
+      <div class="cuadrado">
+        <span class="emoji">🔥</span>
+      </div>
+      <div class="cuadrado">
+        <span class="emoji">🔥</span>
+      </div>
+      <div class="cuadrado">
+        <span class="emoji">🌳</span>
+      </div>
+      <div class="cuadrado">
+        <span class="emoji">🌲</span>
+      </div>
+      <div class="cuadrado">
+        <span class="emoji">🔥</span>
+      </div>
+      <div class="cuadrado">
+        <span class="emoji">🌲</span>
+      </div>
+    </div>
+    <div class="linea linea1">
+      <div class="cuadrado">
+        <span class="emoji">🌲</span>
+      </div>
+      <div class="cuadrado">
+        <span class="emoji">🌳</span>
+      </div>
+      <div class="cuadrado">
+        <span class="emoji">🔥</span>
+      </div>
+      <div class="cuadrado">
+        <span class="emoji">🌲</span>
+      </div>
+      <div class="cuadrado">
+        <span class="emoji">🌲</span>
+      </div>
+      <div class="cuadrado">
+        <span class="emoji">🔥</span>
+      </div>
+    </div>
+    <div class="linea linea2">
+      <div class="cuadrado">
+        <span class="emoji">🌲</span>
+      </div>
+      <div class="cuadrado">
+        <span class="emoji">🔥</span>
+      </div>
+      <div class="cuadrado">
+        <span class="emoji">🌲</span>
+      </div>
+      <div class="cuadrado">
+        <span class="emoji">🌲</span>
+      </div>
+      <div class="cuadrado"><span class="emoji">🌳</span>️</div>
+      <div class="cuadrado">
+        <span class="emoji">🔥</span>
+      </div>
+    </div>
+    <div class="linea linea3">
+      <div class="cuadrado">
+        <span class="emoji">🔥</span>
+      </div>
+      <div class="cuadrado">
+        <span class="emoji">🌳</span>
+      </div>
+      <div class="cuadrado">
+        <span class="emoji">🔥</span>
+      </div>
+      <div class="cuadrado">
+        <span class="emoji">🔥</span>
+      </div>
+      <div class="cuadrado">
+        <span class="emoji">🌳</span>
+      </div>
+      <div class="cuadrado">
+        <span class="emoji">🔥</span>
+      </div>
+    </div>
+    <div class="linea linea4">
+      <div class="cuadrado">
+        <span class="emoji">🌳</span>
+      </div>
+      <div class="cuadrado">
+        <span class="emoji">🌳</span>
+      </div>
+      <div class="cuadrado">
+        <span class="emoji">🔥</span>
+      </div>
+      <div class="cuadrado">
+        <span class="emoji">🌳</span>
+      </div>
+      <div class="cuadrado"><span class="emoji">🔥</span>️</div>
+      <div class="cuadrado">
+        <span class="emoji">🌳</span>
+      </div>
+    </div>
+  </body>
+</html>

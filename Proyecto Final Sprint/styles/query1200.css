@@ -1,0 +1,24 @@
+@media screen and (max-width: 1200px) {
+    div.header {
+        margin: 120px 16px 0px 100px;
+    }
+
+    #episodios {
+        position: relative;
+        height: 911.5px;
+    }
+
+    div.tituloEpisodios h2 {
+        margin-left: 100px;
+    }
+    /*Destinado a invitados*/
+    div.tituloEntrevistas h2 {
+        margin: 0px 16px 14px 100px;
+    }
+
+    /*Destinado a los topicos*/
+    div.contenedorTopicos{
+        margin: 64px 16px 34px 16px;
+    }
+}
+

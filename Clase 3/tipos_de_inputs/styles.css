@@ -1,0 +1,72 @@
+  /* para modificar el comportamiento inline de los inputs
+    podemos crear una regla CSS que escoja todos los inputs, con un 
+    selector de etiqueta input y con la ayuda de 
+    la propiedad - display:block - para si convertirlos en elementos de bloque, 
+    es decir, que cada input tome todo el espacio a lo ancho del viewport*/
+
+  /* observa como los tres primeros inputs presentados en el html
+  se muestran uno al lado del otro (username, password, email), 
+  ahora, dentro de la siguiente regla CSS agregua la propiedad: 
+  
+  display:block 
+  
+  para cambiar su comportamiento inline */
+
+  *{
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: gainsboro;
+  }
+
+  .Padre{
+      display: inline-block;
+      width: 1920px;
+      height: 1080px;
+      padding-top: 50px;
+      text-align: center;
+  }
+
+  p{
+      margin: 0px;
+  }
+
+  label{
+    display: inline-block;
+    text-align: center;
+    
+  }
+
+  input {
+    display: inline-block;
+    padding: 15px;
+    margin: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+
+.input-moderno {
+    background-color: lightpink;
+  }
+
+.input-dia{
+    background-color: lightcyan;
+}
+
+.input-color{
+    background-color: lightgreen;
+}
+
+.input-comida{
+    background-color: lightskyblue;
+}
+
+div{
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+}
+  /* al convertirlos en elementos de bloque, cada uno se toma todo 
+  el espacio a lo ancho, impidiendo que otros elementos se posicionen al lado */
+
+  /* ¿notaste tambien como el cambio de display block 
+  afectó a los checkboxes? */

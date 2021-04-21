@@ -1,0 +1,54 @@
+body {
+  position: relative;
+}
+/*Ocultamos la imaagen de homero.*/
+#homero-1,
+#homero-2,
+#homero-3,
+#homero-4,
+#homero-5,
+#homero-6 {
+  top: 40px;
+  visibility: hidden;
+  position: absolute;
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1200px) {
+  #homero-1 {
+    visibility: visible;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1099px) {
+  #homero-2 {
+    visibility: visible;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 999px) {
+  #homero-3 {
+    visibility: visible;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 899px) {
+  #homero-4 {
+    visibility: visible;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 799px) {
+  #homero-5 {
+    visibility: visible;
+  }
+}
+
+@media only screen and (min-width: 245px) and (max-width: 599px) {
+  #homero-6 {
+    visibility: visible;
+  }
+}
+
+#dimensions {
+  position: relative;
+}

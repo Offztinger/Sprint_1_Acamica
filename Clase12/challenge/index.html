@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+  </head>
+  <body>
+    <style>
+      .barra {
+        width: 10px;
+        height: 70px;
+        background-color: blueviolet;
+        margin-right: 3px;
+        animation-name: equalize;
+        animation-duration: 1.25s;
+        animation-iteration-count: infinite;
+      }
+      .barra2{
+        animation-duration: 2.25s;
+      }
+      .barra3{
+        animation-duration: 3.25s;
+      }
+      .barra4{
+        animation-duration: 4.25s;
+      }
+      .barra5{
+        animation-duration: 5.25s;
+      }
+      .flex-container {
+        display: flex;
+      }
+      @keyframes equalize {
+        0% {
+          height: 60px;
+        }
+        4% {
+          height: 50px;
+        }
+        8% {
+          height: 40px;
+        }
+        12% {
+          height: 30px;
+        }
+        16% {
+          height: 20px;
+        }
+        20% {
+          height: 30px;
+        }
+        24% {
+          height: 40px;
+        }
+        28% {
+          height: 10px;
+        }
+        32% {
+          height: 40px;
+        }
+        36% {
+          height: 60px;
+        }
+        40% {
+          height: 20px;
+        }
+        44% {
+          height: 40px;
+        }
+        48% {
+          height: 70px;
+        }
+        52% {
+          height: 30px;
+        }
+        56% {
+          height: 10px;
+        }
+        60% {
+          height: 30px;
+        }
+        64% {
+          height: 50px;
+        }
+        68% {
+          height: 60px;
+        }
+        72% {
+          height: 70px;
+        }
+        76% {
+          height: 80px;
+        }
+        80% {
+          height: 70px;
+        }
+        84% {
+          height: 60px;
+        }
+        88% {
+          height: 50px;
+        }
+        92% {
+          height: 60px;
+        }
+        96% {
+          height: 70px;
+        }
+        100% {
+          height: 80px;
+        }
+      }
+    </style>
+    <div class="flex-container">
+      <div class="barra"></div>
+      <div class="barra barra2"></div>
+      <div class="barra barra3"></div>
+      <div class="barra barra4"></div>
+      <div class="barra barra5"></div>
+    </div>
+  </body>
+</html>

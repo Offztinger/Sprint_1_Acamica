@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+
+body {
+  display: inline-block;
+  font-family: "Rubik", sans-serif;
+}
+
+.contenedorPadre {
+  display: flex;
+  flex-direction: row;
+}
+
+.caja {
+  width: 400px;
+  height: 400px;
+  background-color: orange;
+  margin: 10px;
+  color: rgb(48, 48, 48);
+  font-weight: bold;
+  padding: 15px;
+}
+
+/* Esta media query significa que cuando el viewport tenga 600 pixeles 
+o menos, aplicara, o sustituira las clases que esten dentro de la query */
+@media screen and (max-width: 800px) {
+  .contenedorPadre {
+    flex-direction: column;
+  }
+
+  .caja {
+    background-color: salmon;
+    color: white;
+  }
+
+  .caja-2 {
+    font-size: 25px;
+  }
+}

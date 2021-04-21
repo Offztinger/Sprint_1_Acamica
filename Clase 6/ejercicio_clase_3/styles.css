@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.contenedorPrincipal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+div.contenidoCard {
+    border: 1px solid black;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    width: 371px;
+    height: 409px;
+}
+
+div.detallesCard{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+img.hotel {
+    border-radius: 3% 3% 0% 0%;
+    width: 369px;
+    height: 206px;
+}
+
+div.textoCard {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+p.title {
+    color: #000000;
+    font-size: 18px;
+}
+
+p.descripcion {
+    color: #6F6F6F;
+}
+
+div#logosCard {
+    display: flex;
+    align-items: center;
+}
+
+p.texto {
+    display: flex;
+    align-items: center;
+    color: #6F6F6F;
+    margin-right: 20px;
+}
+
+img.logo {
+    width: 20px;
+    height: 20px;
+    padding-right:5px ;
+}
+
+div.estrellasCard{
+    display: flex;
+}
+
+img.star{
+    width: 28px;
+    height: 28px;
+    margin-right:5px;
+}

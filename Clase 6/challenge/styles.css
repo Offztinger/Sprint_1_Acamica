@@ -1,0 +1,236 @@
+body{
+    display: inline-block;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.contenedorPadre{
+    display: inline-block;
+    width: 100%;
+}
+
+.header{
+    display: inline-block;
+    width: 97vw;
+    margin-left: 4px;
+}
+
+.statusBar{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.statusBarImg{
+    width: 30px;
+    height: 30px;
+    margin: 3px;
+}
+
+#hour{
+    display:flex;
+    align-items: center;
+    flex-grow: 2;
+    font-size: 25px;
+}
+
+.user{
+    display: inline-block;
+    width: 97vw;
+    margin-left: 4px;
+}
+
+.userInformation{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#username{
+    display: flex; 
+    justify-content: center;
+}
+
+#profilePic{
+    display: flex;
+    align-items: flex-end;
+    border-radius: 50%;
+
+}
+
+.profilePic{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-left:20px ;
+}
+
+.plusImg{
+    position: relative;
+    right: 22px;
+    height: 20px;
+    width: 20px;
+}
+
+#posts, #followers, #following{
+    display: flex;
+    justify-content: center;
+    margin: 1px;
+    padding: 0px;
+}
+
+.posts, .followers, .following{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-right: 35px;
+}
+
+p{
+    font-size: 14px;
+}
+
+.userDescription{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#nameUser, #userInfo{
+    display: inline-block;
+    width: 180px;
+}
+
+.userInformation2{
+    display: flex;
+    justify-content: center;
+    margin-right: 180px;
+
+}
+
+.editProfile{
+    display: flex;
+    justify-content: center;
+
+}
+
+.editProfileBtn{
+    margin-top: 30px;
+    background-color: #FFFFFF;
+    width: 342px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+}
+
+.icons{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.iconsProfile{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+
+#profileUser{
+    display: flex;
+    flex-grow: 2;
+    justify-content: center;
+    border: 1px solid #DBDBDB;
+}
+
+#grid{
+    display: flex;
+    flex-grow: 2;
+    justify-content: center;
+    border: 1px solid #DBDBDB;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footerItem{
+    display: flex;
+    flex-grow: 2;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #DBDBDB;
+}
+
+.footerItemLike{
+    display: flex;
+    flex-grow: 2;
+    max-width: 372.48px ;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #DBDBDB;
+}
+
+.footerImg{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+
+.gridImg{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.photoGrid{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+}
+
+.three{
+    display: flex;
+    flex-direction: row;
+}
+
+.itemPhoto{
+    display: flex;
+    flex-direction: column;
+}
+
+.itemPhoto{
+    display: flex;
+    flex-grow: 2;
+}
+
+.circle{
+    position: relative;
+    top: 15px;
+    right: 35px;
+    width: 14px;
+    height: 14px;
+}
+
+.footerImgLike{
+    position: relative;
+    bottom: 5px;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+
+.likeNumberImg{
+    position: relative;
+    bottom: 55px;
+    right: 30px;
+}

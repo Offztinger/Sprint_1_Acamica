@@ -1,0 +1,461 @@
+@import 'querys.css';
+
+/*Buenas practicas CSS*/
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+/*Estilos del contenedor más grande*/
+.contenedorPrincipal {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+/*Componente N° 1 (ver notepad)*/
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px 100px 0px 100px;
+}
+
+div.parteSuperior {
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+    flex-direction: row;
+}
+
+div#logo {
+    margin-top: 22px;
+}
+
+img#logo {
+    width: 36px;
+    height: 36px;
+}
+
+ul.menu-inicial {
+    align-items: center;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+li#li-inicial {
+    margin-left: 48px;
+    height: 28px;
+}
+
+a.li-item {
+    font-weight: 300;
+    line-height: 28px;
+    color: #060A24;
+}
+
+a.li-item:hover {
+    font-family: 'IBM Plex Mono', monospace;
+    text-decoration: line-through;
+    font-size: 16px;
+    color: #00F3BB;
+    letter-spacing: 0;
+    line-height: 28px;
+}
+
+/*Apartado destinado al burger menu*/
+
+input#checkbox {
+    display: none;
+}
+
+label.label-burger {
+    display: none;
+}
+
+ul.menu-desplazable {
+    display: none;
+}
+
+/*Este es el componente n°2 (ver anexo notepad) de la landing page*/
+
+div.header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 120px 16px 0px 200px;
+}
+
+div.titulo h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 84px;
+    padding-right: 50px;
+    color: #060A24;
+}
+
+strong.dot {
+    color: #0000EC;
+}
+
+div.p-header p {
+    font-family: "IBM Plex Mono", monospace;
+    color: #060A24;
+    font-size: 16px;
+    line-height: 24px;
+    width: 628px;
+}
+
+div.boton-header a.boton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    background-color: #00F3BB;
+    color: #060A24;
+    height: 56px;
+    width: 226px;
+    margin: 56px 0px 5px 0px;
+}
+
+div.boton-header a.boton:hover {
+    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+    color: #ffffff;
+}
+
+/*Componente n°3 (ver anexo notepad)*/
+
+#episodios {
+    height: 1035.05px;
+    z-index: -1;
+}
+
+div.contenedorEpisodios {
+    width: 100vw;
+    height: 905px;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    transform: skewY(-6deg);
+    transform-origin: top right;
+}
+
+
+div.contenidoEpisodios {
+    transform: skewY(6deg);
+}
+
+div.tituloEpisodios h2 {
+    position: relative;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    height: 8;
+    color: #ffffff;
+    text-align: left;
+    margin-left: 200px;
+    padding-top: 186px;
+    bottom: 72px;
+}
+
+div.podcasts {
+    margin: 26px 100px 0px 100px;
+}
+
+div.embed-podcasts1,
+div.embed-podcasts2 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+iframe.item-podcast {
+    width: 99%;
+    height: 152px;
+    border: none;
+}
+
+div.embed-podcasts1 iframe.item-podcast:nth-child(1) {
+    margin-bottom: 72px;
+    padding-right: 36px;
+}
+
+
+div.embed-podcasts1 iframe.item-podcast:nth-child(2) {
+    margin-bottom: 72px;
+    padding-left: 36px;
+}
+
+div.embed-podcasts2 iframe.item-podcast:nth-child(1) {
+    padding-right: 36px;
+}
+
+
+div.embed-podcasts2 iframe.item-podcast:nth-child(2) {
+    padding-left: 36px;
+}
+
+/*Estilos para la sección de nosotros*/
+
+#nosotros{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+div.contenedorNosotros {
+    display: flex;
+    height: 540px;
+}
+
+img.imgNosotros {
+    margin-top: -168px;
+    width: 457.6px;
+}
+
+div.textoNosotros {
+    padding: 50px 0px 0px 62px;
+}
+
+div.textoNosotros h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #060A24;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 42px;
+    margin-bottom: 24px;
+
+}
+
+div.textoNosotros p {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+    width: 464px;
+    padding-bottom: 12px;
+    line-height: 24px;
+
+}
+
+div.contenedorNosotros {
+    display: flex;
+    justify-content: center;
+}
+
+/*Sección de invitados*/
+
+#entrevistas {
+    margin-top: 64px;
+}
+
+
+div.tituloEntrevistas h2 {
+    margin: 0px 16px 14px 200px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 42px;
+    color: #060A24;
+}
+
+div.contenedorEntrevistas {
+    display: flex;
+    flex-direction: column;
+}
+
+div.imgEntrevistas {
+    display: flex;
+    flex-direction: column;
+    margin-top: 36px;
+}
+
+img.item-entrevista {
+    width: 100%;
+}
+
+div.fila1,
+div.fila2 {
+    display: flex;
+    flex-direction: row;
+}
+
+/*Sección de Topicos*/
+
+#topicos {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+div.contenedorTopicos {
+    display: flex;
+    flex-direction: column;
+    margin: 64px 200px 34px 200px;
+}
+
+div.itemTopicos {
+    display: flex;
+    flex-direction: row;
+    margin-top: 56px;
+}
+
+div.itemTopicos div.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+div.contenedorTopicos h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #060A24;
+}
+
+div.itemTopicos div.item img {
+    width: 104px;
+}
+
+div.itemTopicos div.item h4 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #060A24;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 16px;
+    text-align: center;
+    width: 220px;
+}
+
+/*Destinado a novedades*/
+
+#novedades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 518px;
+    
+}
+
+div.contenedorNovedades {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
+    transform: skewY(-3deg);
+    transform-origin: bottom right;
+    width: 100%;
+    z-index: -1;
+}
+
+div.contenidoNovedades h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 36px;
+}
+
+div.contenidoNovedades {
+    position: relative;
+    bottom: 80px;
+    margin: 177px 0px 177px 0px;
+    padding-top: 30px;
+    transform: skewY(3deg);
+    z-index: -1;
+}
+
+div.botonNovedades {
+    display: flex;
+    justify-content: center;
+}
+
+div.botonNovedades a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "IBM Plex Mono", monospace;
+    color: #060A24;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    height: 56px;
+    width: 345px;
+    background-color: #00F3BB;
+    border-radius: 5px;
+}
+
+div.botonNovedades a:hover {
+    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+    color: #ffffff;
+}
+
+/*Destinado al footer*/
+
+#footer {
+    position: relative;
+    top: 5px;
+    display: flex;
+    background-color: #ffffff;
+}
+
+div.contenidoFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 36px 100px 31px 100px;
+    height: 28px;
+    width: 100%;
+}
+
+div.textoFooter p {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+
+}
+
+div.iconosFooter a i {
+    width: 16px;
+    height: 16px;
+}
+
+div.iconosFooter {
+    margin: 5px 0px 5px 0px;
+}
+
+div.iconosFooter a:first-child {
+    margin-left: 36px;
+}
+
+div.iconosFooter a {
+    margin-right: 36px;
+}
+
+i.fab{
+    color: black;
+}
+
+i.fab:hover{
+    color: #00F3BB;
+}

@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    padding: 50px;
+    position: relative;
+  }
+  .container1 {
+    height: 250px;
+    width: 250px;
+    background-color: green;
+    top: 10px;
+  }
+  .container2 {
+    height: 200px;
+    width: 200px;
+    background-color: purple;
+  }
+  .container3 {
+    height: 150px;
+    width: 150px;
+    background-color: tomato;
+  }
+  .container4 {
+    height: 100px;
+    width: 100px;
+    background-color: gold;
+  }
+  .container5 {
+    height: 50px;
+    width: 50px;
+    background-color: orangered;
+    position: absolute;
+  }
+  .huella {
+    height: 250px;
+    width: 250px;
+    position: absolute;
+  }
+
+  .centrar{
+      position: absolute;
+      bottom: 25px;
+      left: 25px;
+  }

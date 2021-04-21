@@ -1,0 +1,75 @@
+* {
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  color: #FFFFFF;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+.icono {
+  margin-right: 4px;
+  width: 50px;
+  height: 50px;
+}
+
+.contenedorPrincipal {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #d8d8d8;
+}
+
+.menu {
+  background-color: #40c8c4;
+}
+
+.cafe {
+  background-color: #4c9bcf;
+}
+
+.media-luna {
+  background-color: #4874a8;
+}
+
+.cena {
+  background-color: #5a5387;
+}
+
+.tragos {
+  background-color: #524365;
+}
+
+.contenedorItems{
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+a{
+  border: none;
+  box-shadow: #000000;
+  display: flex;
+  align-items: center;
+  width: 367px;
+  height: 90px;
+  padding: 10px 5px;
+  display: flex;
+  text-decoration: none;
+}
+
+.menu{
+  width: 367px;
+  height: 60px;
+  padding: 10px 5px 5px 20px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+

@@ -1,0 +1,44 @@
+div p {
+  background-color: darkcyan;
+}
+
+.unaClase .otraClase {
+  font-size: 30px;
+}
+
+div .miClase {
+  color: red;
+}
+
+ul li {
+  list-style-type: none;
+  color: purple;
+  font-weight: bold;
+}
+
+#algunId span div {
+  font-size: 40px;
+}
+
+.verde > .negro {
+  background-color: green;
+  color: black;
+}
+
+ul.lista > li.item {
+  background-color: yellow;
+  color: black;
+  font-weight: normal;
+}
+
+#strong {
+  font-weight: bolder;
+  color: mediumslateblue;
+  font-size: 40px;
+}
+
+.reallyStrong {
+  font-weight: bolder;
+  color: red;
+  font-size: 80px;
+}

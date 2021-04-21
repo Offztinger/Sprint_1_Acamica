@@ -1,0 +1,15 @@
+@media screen and (max-width: 1400px) {
+    #episodios {
+        height: 882.5px;
+    }
+
+    div.contenedorEpisodios {
+        height: 731px;
+    }
+
+    /*Destinado a la sección nosotros*/
+    div.textoNosotros {
+        padding-left: 0px;
+    }
+
+}

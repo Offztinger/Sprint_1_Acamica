@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>FlexBox Nav</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="contenedorPrincipal">
+    <video class="tamañoVideo" id="video-background" autoplay muted>
+      <source src="./recursos/hotel.mp4" type="video/mp4">
+    </video>
+    <div class="cover">
+      <div class="flex-form">
+        <input class="item" type="search" placeholder="¿A donde quieres ir?" />
+        <label class="item" for="from">Desde</label>
+        <input class="item" id="from" type="date" name="from" />
+
+        <label class="item" for="until">Hasta</label>
+        <input class="item" id="until" type="date" name="to" />
+
+        <select class="item">
+          <option>1 persona</option>
+          <option>2 personas</option>
+          <option>3 personas</option>
+          <option>4 personas</option>
+          <option>5 personas</option>
+        </select>
+
+        <button class="itemBoton" type="submit">Buscar</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

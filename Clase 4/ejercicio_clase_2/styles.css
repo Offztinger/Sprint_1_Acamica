@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+.container1 {
+    /*Están ordenados de paso 2 a paso 4 respectivamente*/
+  height: 300px;
+  width: 300px;
+  background-color: green;
+  /*
+  transform: translate(100%, 100%);
+  transform: translateX(300px);
+  transform: translate(0px, 100%)  
+  */
+}
+.container2 {
+  height: 150px;
+  width: 150px;
+  background-color: purple;
+  transform: translate(100%, 100%);
+}
+.container-placeholder {
+  border: 1px dashed black;
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+}
+.posicion1 {
+  position: absolute;
+  left: 300px;
+  top: 300px;
+}
+.posicion2 {
+  position: absolute;
+  left: 300px;
+  top: 0;
+}
+.posicion3 {
+  position: absolute;
+  left: 0;
+  top: 300px;
+}
+.dashed-small {
+  padding: 20px;
+  border: 1px dashed white;
+  height: 150px;
+  width: 150px;
+  position: relative;
+  left: 150px;
+  color: white;
+  font-size: 12px;
+}
